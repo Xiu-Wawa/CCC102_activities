@@ -1,8 +1,21 @@
+/**
+
+Author: Joshua Timothy O. Clet
+BSCS 3rd Year
+
+This is the main of the Line.java and Point.java Program
+
+*/
+
 public class Main {
     public static void main(String[] args) {
         // Create two Point objects
-        Point p1 = new Point(-2.0, 2.0);
-        Point p2 = new Point(-3.0, -6.0);
+        Point p1 = new Point(3.0, 6.0);
+        Point p2 = new Point(2.0, 2.0);
+
+        System.out.println("Point1 = (" + p1.getX() + ", " + p1.getY() + ")");
+        System.out.println("Point2 = (" + p2.getX() + ", " + p2.getY() + ")");
+        System.out.println();
 
         // Calculate the distance between the points
         double distance = p1.distance(p2);

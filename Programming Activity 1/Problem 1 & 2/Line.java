@@ -1,3 +1,12 @@
+/**
+
+Author: Joshua Timothy O. Clet
+BSCS 3rd Year
+
+This code calculates the slope of the line, which is the change in y divided by the change in x, except for vertical lines where the slope is infinite.
+
+*/
+
 public class Line {
     private Point point1;
     private Point point2;

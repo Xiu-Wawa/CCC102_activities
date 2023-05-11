@@ -1,3 +1,13 @@
+/**
+
+Author: Joshua Timothy O. Clet
+BSCS 3rd Year
+
+The Point class represents a point in 2D space with x and y coordinates.
+It provides methods to calculate the distance between two points and determine the quadrant of a point.
+
+*/
+
 public class Point {
     private double x;
     private double y;

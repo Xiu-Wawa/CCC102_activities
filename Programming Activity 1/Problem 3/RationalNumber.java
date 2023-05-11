@@ -1,3 +1,14 @@
+/**
+
+Author: Joshua Timothy O. Clet
+BSCS 3rd Year
+
+The RationalNumber class represents a rational number as a fraction of two integers, with methods to perform arithmetic operations.
+It provides methods to convert the rational number to simplest form, compare two rational numbers, and determine if a rational number is valid.
+The class also has a method to find the reciprocal of the rational number and a private method to compute the greatest common divisor (GCD) of two integers.
+
+*/
+
 public class RationalNumber {
     private int numerator;
     private int denominator;
